@@ -2,6 +2,12 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  color: white;
+  font-family: Heebo;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
 }
 
 a {
@@ -11,4 +17,112 @@ a {
 img,
 video {
   display: block;
+}
+
+.flexbox-one {
+  background-color: #8ecae6;
+  width: 1728px;
+  height: 230px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.flexbox-one .box {
+  border: 1px solid #146c81;
+  background: #219ebc;
+  width: 432px;
+  height: 130px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  padding-left: 35px;
+}
+
+.flexbox-two {
+  background-color: #8ecae6;
+  margin-bottom: 50px;
+  width: 1728px;
+  height: 530px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+  justify-content: center;
+}
+
+.flexbox-two .box {
+  border: 1px solid #146c81;
+  background: #219ebc;
+  padding: 35px;
+}
+
+.flexbox-three {
+  background-color: #8ecae6;
+  margin-bottom: 50px;
+  width: 1728px;
+  height: 230px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexbox-three .box {
+  border: 1px solid #146c81;
+  background: #219ebc;
+  width: 239px;
+  height: 130px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexbox-four {
+  background-color: #8ecae6;
+  margin-bottom: 50px;
+  width: 1728px;
+  height: 500px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: end;
+  flex-direction: row;
+  align-items: end;
+  gap: 20px;
+  padding-right: 50px;
+}
+
+.flexbox-four .box {
+  border: 1px solid #146c81;
+  background: #219ebc;
+  margin-bottom: 50px;
+  padding: 35px;
+}
+
+.flexbox-five {
+  background-color: #8ecae6;
+  width: 1728px;
+  height: 360px;
+  flex-shrink: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.flexbox-five .box {
+  border: 1px solid #146c81;
+  background: #219ebc;
+  width: 864px;
+  height: 130px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  padding-left: 35px;
 }
